@@ -16,7 +16,7 @@ import numpy as np
 classifier =load_model('./mask_imagenet.h5')
 
 class_labels = ['Mask ON','NO Mask']
-cap = cv2.VideoCapture('test_no_mask.mp4')
+cap = cv2.VideoCapture('test_mask.mp4')
 outputFile = "no_output_fast_one.mp4"
 
 fourcc = cv2.VideoWriter_fourcc('X','V','I','D')
